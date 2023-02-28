@@ -5,7 +5,15 @@
 
 version: 2
 updates:
+
+# Enable version updates for Sphinx
+  - package-ecosystem: "Sphinx" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+
+# Enable version updates for 
   - package-ecosystem: "." # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "daily"
