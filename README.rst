@@ -1,5 +1,5 @@
 ==============
-_modvis_django_pkg
+modvis_django_pkg
 ==============
 
 Modvis is a Django app that can be installed in an existing Django project
@@ -17,6 +17,6 @@ Installation
     ]
 
 2. Include the _modvis_django URLconf in your project urls.py like this::
-    path('', include('_modvis_django.urls')),
+    path('', include('modvis_django.urls')),
 
 3. Start the development server and visit http://127.0.0.1:8000/
